@@ -5,9 +5,8 @@ import Benefits from './Benefits';
 import EHSFeatures from './EHSFeatures';
 import HRMSFeatures from './HRMSFeatures';
 import Integrations from './Integrations';
-import Testimonials from './Testimonials';
+import Recruitment from './Recruitment';
 import Footer from './Footer';
-import PrivacypolicyHRMSNDA from './PrivacypolicyHRMS&NDA';
 
 const Home = () => {
   return (
@@ -18,9 +17,9 @@ const Home = () => {
         <Benefits />
         <EHSFeatures />
         <HRMSFeatures />
+        <Recruitment />
         <Integrations />
-        <Testimonials />
-        <PrivacypolicyHRMSNDA />
+
       </main>
       <Footer />
     </div>
