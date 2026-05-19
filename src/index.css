@@ -47,3 +47,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

@@ -6,6 +6,7 @@ import AdminRoutes from './adminportal/routes/AdminRoutes';
 import SuperAdminRoutes from './superAdmin/routes/SuperAdminRoutes';
 import Home from './webpage/components/home';
 import './App.css';
+import PrivacypolicyHRMSNDA from './webpage/components/PrivacypolicyHRMS&NDA';
 
 const AuthSwitch = ({ allowedRole, loginPortal, children }) => {
   const role = localStorage.getItem('user_role');
@@ -49,6 +50,7 @@ function App() {
         } />
 
         <Route path="*" element={<Navigate to="/admin" replace />} />
+        <Route path="/privacypolicyhrms&nda" element={<PrivacypolicyHRMSNDA />} />
       </Routes>
     </BrowserRouter>
   );

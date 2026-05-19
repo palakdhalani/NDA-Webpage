@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldAlert, Flame, ClipboardCheck, AlertTriangle, FileText, CheckCircle2 } from 'lucide-react';
 import mockup from '../../assets/dashboard_mockup.png';
+import { Link } from 'react-router-dom';
 
 const EHSFeatures = () => {
   const features = [
@@ -115,8 +116,13 @@ const EHSFeatures = () => {
               </div>
             </div>
           </motion.div>
-
+            
         </div>
+       <Link to="/privacypolicyhrms&nda">
+         <div className="button-container flex justify-center mt-20">
+            <button className="button bg-[#004792] text-white rounded-full hover:bg-black transition-all duration-700 cursor-pointer px-10 py-5">Explore More</button>
+        </div>
+      </Link>
       </div>
     </section>
   );

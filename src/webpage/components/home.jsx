@@ -7,6 +7,7 @@ import HRMSFeatures from './HRMSFeatures';
 import Integrations from './Integrations';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
+import PrivacypolicyHRMSNDA from './PrivacypolicyHRMS&NDA';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <HRMSFeatures />
         <Integrations />
         <Testimonials />
+        <PrivacypolicyHRMSNDA />
       </main>
       <Footer />
     </div>
